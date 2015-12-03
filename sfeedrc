@@ -2,4 +2,10 @@ sfeedpath="$HOME/webdev/planet/feeds"
 
 feeds() {
 	# feed <name> <feedurl> [basesiteurl] [encoding]
+	feed "xihh" "http://nomia.mx/index.xml"
+	feed "pucho" "http://bordarretazos.net/feed/"
+	feed "stf" "https://esquizofreniac01ectiva.wordpress.com/feed/"
+	feed "huitlacoche" "https://cuandolasmujereserancomputadoras.wordpress.com/feed/"
+	feed "campechana" "http://campechanamental.espora.org/index.rss"
+	feed "caracolazul" "http://caracolazul.espora.org/feed/"
 }
