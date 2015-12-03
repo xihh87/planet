@@ -1,0 +1,5 @@
+sfeedpath="$HOME/webdev/planet/feeds"
+
+feeds() {
+	# feed <name> <feedurl> [basesiteurl] [encoding]
+}
