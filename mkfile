@@ -1,8 +1,10 @@
 default: init
 	sfeed_update sfeedrc || true && \
-	cd out && sfeed_frames ../feeds/* && \
-	cp ../index.html . && \
-	sed -i -e 's#href="#href="/rancho/#g' items.html
+	cp index.html out && \
+	cat feeds/* | sort -nr | awk -f items.awk > out/items.html
+
+clean:
+	rm -r feeds out
 
 init:V:
 	mkdir -p feeds out
