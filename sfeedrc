@@ -9,4 +9,5 @@ feeds() {
 	feed "campechana" "http://campechanamental.espora.org/index.rss"
 	feed "caracolazul" "http://caracolazul.espora.org/feed/"
 	feed "mediagoblin" "http://media.espora.org/atom/"
+	feed "eventos" "http://ranchoelectronico.org/feed/"
 }
