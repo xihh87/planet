@@ -24,7 +24,7 @@ BEGIN {
 {
 # Imprimir los enlaces como en sfeed_frames
 print "<a href=\"" $enlace "\" target=\"content\">" \
-	"<div class=\"ui link segment\">" \
+	"<div class=\"ui link card\">" \
 		"<div class=\"content\">" \
 		$titulo	\
 		"</div><!--content-->" \
