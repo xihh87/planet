@@ -10,4 +10,5 @@ feeds() {
 	feed "caracolazul" "http://caracolazul.espora.org/feed/"
 	feed "mediagoblin" "http://media.espora.org/atom/"
 	feed "eventos" "http://ranchoelectronico.org/feed/"
+	feed "cocove" "http://cocina.espora.org/?feed=rss2"
 }
