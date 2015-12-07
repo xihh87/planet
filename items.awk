@@ -17,14 +17,13 @@ BEGIN {
 			"<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />" \
 		"</head>" \
 		"<body class=\"frame\">" \
-			"<div class=\"ui segments\" id=\"items\">"
 
 }
 
 {
 # Imprimir los enlaces como en sfeed_frames
-print "<a href=\"" $enlace "\" target=\"content\">" \
-	"<div class=\"ui link card\">" \
+print "<a class=\"ui fluid card\" href=\"" $enlace "\" target=\"content\">" \
+	"<div class=\"ui fluid card\">" \
 		"<div class=\"content\">" \
 		$titulo	\
 		"</div><!--content-->" \
@@ -34,7 +33,6 @@ print "<a href=\"" $enlace "\" target=\"content\">" \
 
 END {
 	# Terminar el HTML
-	print "</div>" \
-		"</body>" \
+	print "</body>" \
 		"</html>"
 }

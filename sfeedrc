@@ -8,7 +8,7 @@ feeds() {
 	feed "huitlacoche" "https://cuandolasmujereserancomputadoras.wordpress.com/feed/"
 	feed "campechana" "http://campechanamental.espora.org/index.rss"
 	feed "caracolazul" "http://caracolazul.espora.org/feed/"
-	feed "mediagoblin" "http://media.espora.org/atom/"
+	feed "mediagoblin" "http://media.espora.org/tag/rancho-electronico/atom/"
 	feed "eventos" "http://ranchoelectronico.org/feed/"
 	feed "cocove" "http://cocina.espora.org/?feed=rss2"
 }
