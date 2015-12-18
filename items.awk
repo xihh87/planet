@@ -15,12 +15,9 @@ BEGIN {
 		"<html>" \
 		"<head>" \
 			"<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />" \
-			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/rancho/reset.min.css\" />" \
-			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/rancho/prettify.css\" />" \
-			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/rancho/custom.css\" />" \
-			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/rancho/container.min.css\" />" \
-			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/rancho/card.min.css\" />" \
-			"<script src=\"/rancho/prettify.js\"></script>" \
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/custom.css\" />" \
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/container.min.css\" />" \
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/card.min.css\" />" \
 		"</head>" \
 		"<body class=\"frame\">" \
 			"<div class=\"container\">"
