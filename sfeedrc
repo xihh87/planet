@@ -11,4 +11,8 @@ feeds() {
 	feed "mediagoblin" "http://media.espora.org/tag/rancho-electronico/atom/"
 	feed "eventos" "http://ranchoelectronico.org/feed/"
 	feed "cocove" "http://cocina.espora.org/?feed=rss2"
+	feed "alodeca"	"http://elrincondesastre.wordpress.com/feed/"
+	feed "hacklib"	"http://purplepulple.wordpress.com/feed/"
+	feed "labcine" "https://laboratoriodemusicalibre.wordpress.com/feed/"
+	feed "sisifo" "https://armstrongliberado.wordpress.com/feed/"
 }
