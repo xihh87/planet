@@ -10,4 +10,4 @@ init:V:
 	mkdir -p feeds out
 
 publish:V:
-	rsync -vzhr -e ssh /home/joshpar/webdev/planet/out/ urania:/srv/http/nomia.mx/rancho/
+	rsync -vzhr ./out/ /srv/http/rancho.nomia.mx/
