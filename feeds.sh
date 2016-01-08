@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /home/feeds
-mk && mk publish
+/opt/plan9/bin/mk && /opt/plan9/bin/mk publish

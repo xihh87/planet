@@ -1,6 +1,6 @@
 default: init
 	sfeed_update sfeedrc || true && \
-	cp index.html *.css *.js out && \
+	cp index.html *.css out && \
 	cat feeds/* | sort -nr | awk -f items.awk > out/items.html
 
 clean:

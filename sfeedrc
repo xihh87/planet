@@ -15,4 +15,5 @@ feeds() {
 	feed "hacklib"	"http://purplepulple.wordpress.com/feed/"
 	feed "labcine" "https://laboratoriodemusicalibre.wordpress.com/feed/"
 	feed "sisifo" "https://armstrongliberado.wordpress.com/feed/"
+	feed "sursiendo" "http://sursiendo.com/blog/feed/"
 }
