@@ -3,11 +3,11 @@
 BEGIN {
 	FS="\t";
 
-	# Orden en salida de sfeed
+	# Orden en salida de ./filter
 	fecha_unix=1
 	fecha=2
-	titulo=3
-	enlace=4
+	titulo=4
+	enlace=3
 	contenido=5
 
 	# Encabezado del HTML
