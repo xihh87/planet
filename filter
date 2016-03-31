@@ -1,0 +1,12 @@
+#!/usr/bin/awk -f
+BEGIN {
+        FS="\t"
+	OFS="\t"
+        # Orden en salida de sfeed
+        fecha_unix=1
+        fecha=2
+        titulo=3
+        enlace=4
+        contenido=5
+}
+{print $fecha_unix, $fecha, $enlace, $titulo}

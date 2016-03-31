@@ -1,0 +1,13 @@
+#!/usr/bin/awk -f
+BEGIN {
+        FS="\t"
+	OFS="\t"
+        # Orden en salida de ./filter
+        fecha_unix=1
+        fecha=2
+        titulo=4
+        enlace=3
+        contenido=5
+}
+{if ($3 != old_url) {print $0};
+	old_url = $enlace}
